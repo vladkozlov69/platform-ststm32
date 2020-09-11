@@ -1,0 +1,43 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m7",
+    "extra_flags": "-DSTM32H7xx -DSTM32H743xx",
+    "f_cpu": "400000000L",
+    "mcu": "stm32h743vit6",
+    "product_line": "STM32H743xx",
+    "variant": "Generic_H743vi"
+  },
+  "connectivity": [
+    "can",
+    "ethernet"
+  ],
+  "debug": {
+    "default_tools": [
+      "stlink"
+    ],
+    "jlink_device": "STM32H743VI",
+    "onboard_tools": [
+      "stlink"
+    ],
+    "openocd_board": "stm32h7x3i_eval",
+    "svd_path": "STM32H7x3.svd"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "name": "Generic H743VIT6",
+  "upload": {
+    "maximum_ram_size": 524288,
+    "maximum_size": 2097152,
+    "protocol": "stlink",
+    "protocols": [
+      "jlink",
+      "stlink",
+      "blackmagic",
+      "mbed"
+    ]
+  },
+  "url": "https://https://www.st.com/content/st_com/en/products/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus/stm32-high-performance-mcus/stm32h7-series/stm32h743-753/stm32h743vi.html",
+  "vendor": "ST"
+}

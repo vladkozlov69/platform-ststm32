@@ -182,7 +182,7 @@
       "type": "framework",
       "optional": true,
       "owner": "platformio",
-      "version": "~4.10900.0"
+      "version": "https://github.com/vladkozlov69/Arduino_Core_STM32.git"
     },
     "framework-arduinoststm32-maple": {
       "type": "framework",
